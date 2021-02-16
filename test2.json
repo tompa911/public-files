@@ -1,27 +1,25 @@
 {
- "apptest": [
-{
- "keepWaitingPipelines": false,
- "limitConcurrent": true,
- "name": "pipeline-test",
- "spelEvaluator": "v4",
- "stages": [
-  {
-   "failPipeline": true,
-   "instructions": "Continue?",
-   "judgmentInputs": [],
-   "name": "Manual Judgment",
-   "notifications": [
-   ],
-   "refId": "1",
-   "requisiteStageRefIds": [],
-   "sendNotifications": true,
-   "type": "manualJudgment"
-  }
- ],
- "triggers": [
- ]
-}
-]
+  "apptest": [
+    {
+      "keepWaitingPipelines": false,
+      "limitConcurrent": true,
+      "name": "pipeline-test",
+      "spelEvaluator": "v4",
+      "stages": [
+        {
+          "failPipeline": true,
+          "instructions": "Continue?",
+          "judgmentInputs": [],
+          "name": "Manual Judgment",
+          "notifications": [],
+          "refId": "1",
+          "requisiteStageRefIds": [],
+          "sendNotifications": true,
+          "type": "manualJudgment"
+        }
+      ],
+      "triggers": []
+    }
+  ]
 }
 
