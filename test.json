@@ -1,6 +1,6 @@
 {
- "application": "apptest",
- "index": 0,
+ "application":"apptest",
+ "index":0,
  "keepWaitingPipelines": false,
  "lastModifiedBy": "anonymous",
  "limitConcurrent": true,
