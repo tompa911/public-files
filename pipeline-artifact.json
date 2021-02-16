@@ -1,9 +1,9 @@
 {
-  "apptest": [
+  "app-name": [
     {
       "keepWaitingPipelines": false,
       "limitConcurrent": true,
-      "name": "pipeline-test",
+      "name": "pipeline-name",
       "spelEvaluator": "v4",
       "stages": [
         {
